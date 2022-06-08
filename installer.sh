@@ -1,6 +1,0 @@
---upgrade pip
-requests 
-colorama
-
-
-
