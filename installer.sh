@@ -4,6 +4,6 @@ pip install requests
 #starting IPL tool
 echo "starting IPL tool ....."
 sleep 5
-pyhon IPL.py 
+python IPL.py 
 
 
