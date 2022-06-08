@@ -30,8 +30,6 @@ apt update && apt upgrade -y
 clear
 pkg install python -y 
 clear
-pkg espeak -y
-clear
 pip install --upgrade pip
 pip install colorama 
 pip install requests
