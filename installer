@@ -1,0 +1,20 @@
+#!/bin/bash
+export PS1='\e[0;34m\u@\h:\W|SaDWX$\e[m'
+R=$'\e[1;31m'
+G=$'\e[1;32m'
+B=$'\e[1;34m'
+apt install python3 -y
+mkdir /opt/iPl
+mv * /opt/iPl
+cd ../
+rm -r iPl
+cd /opt/iPl/
+pip3 install -r requirements.txt
+ln iPl /bin/
+chmod +x /usr/bin/iPl
+echo "
+"
+echo "${G}=========================================================================================="
+echo "${B} You can now run ${R} iPl ${B} on the first page of your terminal just type ${G} <ipl>"
+echo "${G}=========================================================================================="
+#SaDWX 
