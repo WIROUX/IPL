@@ -1,0 +1,10 @@
+#!/bin/bash
+export PS1='\e[0;34m\u@\h:\W|SaDWX$\e[m'
+R=$'\e[1;31m'
+G=$'\e[1;32m'
+B=$'\e[1;34m'
+cd ../
+rm -r IPL
+git clone https://github.com/WIROUX/IPL
+cd IPL
+bash installer
