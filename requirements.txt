@@ -1,4 +1,4 @@
 
 colorama 
 requests 
-pyttxs3
+pyttsx3
