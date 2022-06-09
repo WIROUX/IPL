@@ -7,7 +7,7 @@ apt install python3 -y
 mkdir /opt/iPl
 mv * /opt/iPl
 cd ../
-rm -r iPl
+rm -r IPL
 cd /opt/iPl/
 pip3 install -r requirements.txt
 ln iPl /bin/
